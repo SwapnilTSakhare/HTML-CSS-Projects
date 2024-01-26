@@ -1,0 +1,213 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+html,
+body {
+      font-family: "Roboto", sans-serif;
+      font-weight: 300;
+      line-height: 1.4;
+      scroll-behavior: smooth;
+}
+section {
+      scroll-margin: 50px;
+}
+
+a {
+      text-decoration: none;
+      color: white;
+}
+
+header {
+      background-color: #281154;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
+
+nav {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      padding: 20px 0;
+}
+
+.logo {
+      font-size: 32px;
+      font-weight: 600;
+}
+
+nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+}
+
+nav ul li {
+      border-bottom: 2px solid transparent;
+      transition: 0.2s ease-in-out;
+}
+
+nav ul li:hover {
+      border-bottom: 2px solid white;
+      transition: 0.2s ease-in-out;
+}
+
+.overview_section{
+      background-image: url(images/hero_image.png);
+      height: 100vh;
+      display: grid;
+      color: white;
+      place-items: center;
+      text-align: center;
+}
+
+.overview_section .container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+}
+
+.overview_section h1 {
+      font-size: 96px;
+}
+.overview_section h3 {
+      font-size: 32px;
+}
+.overview_section p {
+      max-width: 1200px;
+}
+
+.music_section {
+      padding-top: 50px;
+      background-color: #281154;
+}
+
+.music_section .container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+      color: white;
+}
+
+.music_section .container h4{
+      max-width: 1200px;
+}
+
+.ipad-iphone-img {
+      position: relative;
+      top: 400px;
+      margin-top: -400px;
+}
+
+button {
+      padding: 10px 15px;
+      border: none;
+      transition: 0.2s ease-in-out;
+}
+button:hover {
+      opacity: 0.8;
+      transition: 0.2s ease-in-out;
+}
+.primary_btn {
+      background-color: #dc0000;
+      color: white;
+}
+.secondary_btn {
+      background-color: #37008e;
+      color: white;
+}
+
+.about_music p {
+      max-width: 1200px;
+}
+
+.about_music {
+      padding-top: 500px;
+      display: grid;
+      place-items: center;
+      gap: 50px;
+      text-align: center;
+      margin-bottom: 50px;
+}
+
+.video_section {
+      background-image: url(images/video.png);
+      min-height: 800px;
+      display: grid;
+      place-items: center;
+      color: white;
+      text-align: center;
+}
+
+.video_section .container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      margin-top: -200px;
+}
+
+.video_section p {
+      max-width: 1200px;
+}
+
+.overview_section, .video_section {
+      position: relative;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+.gift_section {
+      display: flex;
+      justify-content: center;
+      margin: 100px 0;
+      gap: 50px;
+      max-width: 1000px;
+      place-content: center;
+      margin-left: 150px;
+}
+
+.gift_content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+}
+
+
+.footer_upper {
+      background-color: #1b0058;
+      padding: 20px 150px;;
+}
+
+.footer_upper .container {
+      display: flex;
+      color: white;
+      justify-content: space-between;
+}
+
+.footer_upper h4 {
+      padding-bottom: 10px ;
+      border-bottom: 2px solid white;
+      margin-bottom: 10px;
+}
+
+.footer_lower {
+      background-color: #270082;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      color: white;
+}
+
+/* .gift_section {
+      scroll-margin: 50px;
+} */
