@@ -1,0 +1,147 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body {
+      font-family: 'Outfit', sans-serif;
+      background-color: hsl(30, 54%, 90%);
+      margin: 0;
+      font-size: 16px;
+}
+
+.container {
+      width: 700px;
+      margin: 0 auto;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 20px;
+      background-color: #ffffff;
+}
+
+img {
+      width: 100%;
+      display: flex;
+      border-radius: 30px;
+}
+
+h1 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+}
+
+p {
+      margin-bottom: 20px;
+}
+
+.preptime {
+      background-color: rgb(244, 236, 241);
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-radius: 10px;
+}
+
+
+.preptime h3 {
+      margin: 20px 0 20px 15px;
+      color: rgb(118, 43, 87);
+}
+
+
+.preptime ul {
+      padding-left: 35px;
+}
+
+.preptime li {
+      padding-left: 20px;
+      color: hsl(30, 10%, 34%);
+      margin: 15px;
+}
+
+.ingredients {
+      padding-bottom: 20px;
+}
+
+.ingredients ul {
+      padding-left: 25px;
+}
+
+.ingredients h2 {
+      font-family: 'Young Serif', serif;
+      color: rgb(118, 43, 87);
+      font-size: 30px;
+      margin-bottom: 15px;
+}
+
+.ingredients li {
+      line-height: 1.7;
+      padding-left: 20px;
+      color: rgb(82, 81, 81);
+      padding-left: 15px;
+}
+
+.ingredients li::marker {
+      color: hsl(14, 45%, 36%);
+}
+
+hr {
+      margin-top: 25px;
+}
+
+.instructions {
+      padding-bottom: 20px;
+}
+
+.instructions ol {
+      padding-left: 25px;
+}
+
+.instructions li {
+      line-height: 1.7;
+      padding-left: 20px;
+      color: rgb(82, 81, 81);
+      padding-left: 15px;
+}
+
+.instructions h2 {
+      font-family: 'Young Serif', serif;
+      color: rgb(118, 43, 87);
+      font-size: 30px;
+      margin-bottom: 15px;
+}
+
+.instructions li::marker {
+      color: hsl(14, 45%, 36%);
+}
+
+.nutri {
+      padding-bottom: 20px; 
+}
+.nutri h2 {
+      font-family: 'Young Serif', serif;
+      color: rgb(118, 43, 87);
+      font-size: 30px;
+      margin-bottom: 15px;
+}
+
+.nutrition{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      line-height: 2;
+      margin-left: 28px;
+  }
+  
+  hr {
+      border: 0;
+      border-top: 1px solid #eee;
+      margin-left: -30px;
+  }
+  
+
+footer {
+      margin-top: 20px;
+      font-size: 15px;
+      text-align: center;
+}
